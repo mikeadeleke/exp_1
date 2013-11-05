@@ -1,0 +1,25 @@
+<div class="container">
+	<br><h1>Landlords</h1><br>
+	<div class="row">
+	  <div class="offset2 span3">
+	  	<h3>Get paid on time</h3><br>
+	  	<%= link_to(image_tag("/assets/money_bag.png", alt: "Sublet", title: "Home", height: "150", width: "150"), getpaid_path) %><br>
+	  	<br><p>We handle everything for you. Just <strong>sign up</strong> with us and <strong>start collecting your checks!</strong></p>
+	  </div>
+	  <div class="span3">
+	  	<h3>Sell more listings</h3><br>
+	  	<%= link_to(image_tag("/assets/home.png", alt: "Housing", title: "Home", height: "150", width: "150"), listings_path) %><br>
+	  	<br><p>Photos > Descriptions. List your place with us and we'll take professional photos putting them on our site. You'll <strong>sell more homes!</strong></p>
+	  </div>
+	  <div class="span3">
+	  	<h3>Better tenants</h3><br>
+	  	<%= link_to(image_tag("/assets/tools.jpeg", alt: "maintenance", title: "Home", height: "150", width: "150"), bettertenants_path) %><br>
+	  	<br><p>Tired of frats dudes trashing your house? We're making it easy to find the <strong>best, most responsible tenants</strong>.</p>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="offset5 span3">
+	  	<br><br><%= link_to "Sign up!", getpaid_path, class: "btn btn-large btn-success center" %><br><br>
+	  </div>
+	</div>
+</div>

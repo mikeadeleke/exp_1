@@ -1,0 +1,31 @@
+<div class="center hero-unit">
+	<h1>Welcome to Domi!</h1>
+	<h2>
+		College Housing Made Easy
+	</h2>
+</div>
+<div class="container">
+	<h1>Drexel</h1><br>
+	<div class="row">
+	  <div class="offset2 span3">
+	  	<h3>Sublet your place</h3><br>
+	  	<%= link_to(image_tag("/assets/money_bag.png", alt: "Sublet", title: "Home", height: "150", width: "150"), sublet_path) %><br>
+	  	<br><p><strong>Make some money!</strong> Fill your place when you're not there and see other houses up for sale!</p>
+	  </div>
+	  <div class="span3">
+	  	<h3>One application</h3><br>
+	  	<%= link_to(image_tag("/assets/home.png", alt: "Housing", title: "Home", height: "150", width: "150"), application_path) %><br>
+	  	<br><p>Stop filling out applications to every house you want. Just do <strong>one</strong>.</p>
+	  </div>
+	  <div class="span3">
+	  	<h3>Maintenance</h3><br>
+	  	<%= link_to(image_tag("/assets/tools.jpeg", alt: "maintenance", title: "Home", height: "150", width: "150"), ondemand_path) %><br>
+	  	<br><p>Landlord won't answer your calls? Heater's broken? Get someone in <strong>one day</strong>.</p>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="offset5 span3">
+	  	<br><br><%= link_to "Sign up!", application_path, class: "btn btn-large btn-success center" %><br><br>
+	  </div>
+	</div>
+</div>

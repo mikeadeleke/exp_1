@@ -1,0 +1,13 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+       <%= link_to(image_tag("/assets/domi.png", alt: "DOMI", title: "Home", id: "logo", height: "70", width: "70"), root_path) %>
+      <nav>
+        <ul class="nav pull-right header">
+          <li><%= link_to "Students", root_path %></li>
+         <li><%= link_to "Landlords", landlords_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

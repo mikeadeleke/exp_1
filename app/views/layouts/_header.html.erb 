@@ -1,0 +1,12 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to( image_tag("locale/thumbs/001.jpg"), image_path( "assets/images/domi.png") ), root_path, id: "logo" %>
+      <nav>
+        <ul class="nav pull-right">
+         <li>College Housing - the aogony = Domi</li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
